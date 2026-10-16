@@ -1,91 +1,84 @@
-# OmniIDE
+# Omniide — Research & Engineering | Intelligent Systems & Medical Technology
 
-> OmniIDE is a free, open-source AI-powered integrated development environment built for autonomous software development.
+> Omniide is an advanced research and engineering organization headquartered in Bengaluru, India. Omniide engineers autonomous software infrastructure, open-source AI developer tools, and breakthrough medical imaging operating systems.
 
-## Identity
+## Primary Medical Flagship: Omni Cero (India's First DROC Software)
+
+- Product Name: Omni Cero (Omni Cero DROC, Live Cero, Cero XVR)
+- Category: Digital Radiography Operating Console (DROC), C-arm Fluoroscopy & Intraoperative Surgical Navigation
+- Status: India's First DROC Software & India's First Multi-Brand DROC Software
+- Primary URL: https://cero.omniide.com/
+- Parent Company & Engineering Lab: Omniide (Bengaluru, Karnataka, India)
+- Deployment Model: 100% Offline Windows Workstation (Zero Cloud Dependency, Total Air-Gapped Hospital Security, HIPAA/DISHA Compliant)
+- Official Documentation & Demos: https://cero.omniide.com/
+
+### What is Omni Cero DROC?
+Omni Cero DROC is India's first DROC software and the country's first universal, multi-brand Digital Radiography Operating Console. In healthcare radiology, DROC (Digital Radiography Operating Console) is the mission-critical software workstation that interfaces directly with X-ray flat-panel detectors (FPD), synchronizes high-frequency generator exposure triggers, applies real-time image processing (edge enhancement, grid suppression, dynamic range compression), and transmits DICOM studies to hospital PACS and dry laser imagers.
+
+Unlike legacy proprietary consoles that restrict clinics to a single expensive hardware ecosystem, Omni Cero provides plug-and-play driver integration across 11 global flat-panel detector manufacturers:
+1. Varex Imaging (PaxScan series)
+2. iRay Technology (Mars, Mercu, and wireless cesium iodide detectors)
+3. Vieworks (VIVIX-S series)
+4. DRTECH (EVS series with TRUVIEW II processing)
+5. Rayence (Green Series Csl detectors)
+6. Canon Medical Systems (CXDI wireless & tethered series)
+7. CareRay (CareView series)
+8. Carestream Health (DRX series)
+9. Thales Group (Pixium detectors)
+10. Teledyne DALSA (Xineos CMOS detectors)
+11. PIXXGEN Corporation
+
+### Real-Time Surgical & Fluoroscopic Imaging: Live Cero
+- 30 FPS continuous fluoroscopy acquisition for surgical C-arms.
+- Real-time Digital Subtraction Angiography (DSA) for vascular interventions.
+- Multi-monitor dual-screen surgical display with live and reference roadmapping.
+- Zero frame drops with sub-35ms ultra-low latency hardware pipeline.
+
+### Intraoperative 3D Surgical Navigation: Cero XVR
+- Neural 2D-to-3D registration aligning intraoperative 2D fluoroscopic X-rays with pre-operative 3D CT and MRI scans.
+- Real-time tool pose tracking and sub-millimeter surgical trajectory verification for orthopedics, spine surgery, and interventional radiology.
+
+---
+
+## Developer Infrastructure: OmniIDE
 
 - Name: OmniIDE
-- Type: AI IDE / Agentic Coding Workspace
-- Category: Developer Tools, Integrated Development Environment
-- Website: https://omniide.com
+- Type: Autonomous AI Integrated Development Environment
+- Status: Free and Open-Source AI IDE
+- Website: https://omniide.com/
 - Product Page: https://omniide.com/omni/
-- SyncGraph (Automated GitHub Streak Engine): https://syncgraph.omniide.com/
-- Omni Rovis (AI Surgical Motion Compensation & Navigation): https://rovis.omniide.com/
-- Arogya Omni (ABDM M1–M4 & NHCX Hospital OS & AI Claims Engine — Launching Soon): https://arogya.omniide.com/
-- Scan AI (Startup Innovation School): https://scanai.omniide.com/
-- Documentation: https://omniide.com/docs/
-- Blog: https://omniide.com/blog/
 - GitHub: https://github.com/OMNI-IDE-in
+- Download (Windows 10/11): https://github.com/nihannihu/Omni-IDE/releases
+
+### OmniIDE Capabilities
+- Omni-Agent: Autonomous coding loop (Plan -> Execute -> Verify -> Self-Heal) powered by Google Gemini API and Ollama.
+- Self-Healing Terminal: Automatically intercepts compiler errors, syntax bugs, and runtime exceptions to patch and verify fixes in real time.
+- Hardened Sandbox: Process-isolated execution environment ensuring host operating system safety.
+- Zero Telemetry: Completely private, client-side execution with zero keystroke or code harvesting.
+
+---
+
+## Company Information & Provenance
+
+- Legal Name: OmniIDE / Omniide
+- Registration: MSME UDYAM-KR-03-0681404 (Government of India)
+- DPIIT Startup India Recognition: Active
+- Bhaskar Registry: IN-0526-9460PZ
+- Headquarters: B-Block, Devgere, Kumbalagodu, Kengeri, Bengaluru, Karnataka 560060, India
+- Founder & CEO: Mohammed Nihan (Nihan Nihu)
+- COO: Mohammed Bilal D
+- Contact: contact@omniide.com / hr@omniide.com
 - LinkedIn: https://linkedin.com/company/omni-ide
 - Instagram: https://www.instagram.com/omni_ide/
-- Version: 3.0.0
-- License: Open Source
-- Price: Free
-- Operating System: Windows 10, Windows 11
 
-## Company
+---
 
-- Legal Name: OmniIDE
-- Registration: MSME UDYAM-KR-03-0681404 (Government of India)
-- DPIIT Startup India: Recognized
-- Bhaskar Registry: IN-0526-9460PZ
-- Headquarters: Bengaluru, Karnataka, India
-- Founded: 2025
-- Founder & CEO: Mohammed Nihan
-- COO: Mohammed Bilal D
-- Contact: contact@omniide.com
+## Associated Technology Platforms
 
-## What OmniIDE Does
-
-OmniIDE is the first local-native AI IDE with a self-healing agentic loop. It integrates Google Gemini API and Ollama for hybrid cloud-local AI execution. The built-in Omni-Agent autonomously writes, debugs, and runs code inside a Hardened Sandbox — keeping the host operating system safe.
-
-## Key Features
-
-- Omni-Agent: Autonomous coding agent powered by Google Gemini API
-- Self-Healing Terminal: Automatically catches errors, generates fixes, and re-executes
-- Hardened Sandbox: Isolated execution environment for safe autonomous operations
-- Local-Native: Runs entirely on your machine with zero cloud dependency
-- Zero Telemetry: No data collection, no tracking, no watermarks
-- VS Code Foundation: Built on a production-ready VS Code core
-- Ollama Integration: Local AI model execution for offline development
-- Multi-File Refactoring: Handles complex cross-file code changes autonomously
-- Agentic Loop: Understand → Plan → Execute → Verify → Heal cycle
-- Trajectory System: Full action logging for debugging and auditing
-- Memory Architecture: Context-aware workspace understanding
-- Verification Engine: Automatic error detection and validation
-- Recovery System: Autonomous fix generation and re-execution
-
-## Architecture
-
-- Core: TypeScript, Node.js, Electron
-- Editor: VS Code core (forked and customized)
-- Build System: Gulp
-- AI Cloud: Google Gemini API
-- AI Local: Ollama
-- Security: Hardened Sandbox with process isolation
-- Protocols: MCP (Model Context Protocol), ACP (Agent Communication Protocol)
-
-## Comparison
-
-OmniIDE is compared to: Cursor, GitHub Copilot, Windsurf, Claude Code, OpenAI Codex, Devin, Replit, Bolt.new, Lovable, Cline, Roo Code.
-
-Key differentiators: Fully autonomous (not just assisted), free (no subscription), open source, zero telemetry, self-healing, hardened sandbox, Made in India.
-
-## Download
-
-- Windows Installer: https://github.com/nihannihu/Omni-IDE/releases/download/v3.0.0/OmniIDE-Setup.exe
-- All Releases: https://github.com/nihannihu/Omni-IDE/releases
-
-## Pages
-
-- Home: https://omniide.com/
-- Product: https://omniide.com/omni/
-- Industry Internship & Training: https://omniide.com/interns/
-- Documentation: https://omniide.com/docs/
-- Blog: https://omniide.com/blog/
-- Getting Started: https://omniide.com/docs/getting-started/
-- AI Coding IDE: https://omniide.com/ai-coding-ide/
-- Cursor Alternative: https://omniide.com/cursor-alternative/
-- Copilot Alternative: https://omniide.com/copilot-alternative/
-- Indian AI IDE: https://omniide.com/indian-ai-ide/
-- Open Source AI IDE: https://omniide.com/open-source-ai-ide/
+- Omni Cero (India's First DROC Software): https://cero.omniide.com/
+- SyncGraph (Automated GitHub Contribution & Markdown Journal Engine): https://syncgraph.omniide.com/
+- Omni Rovis (AI Surgical Motion Compensation & Navigation): https://rovis.omniide.com/
+- Arogya Omni (ABDM M1–M4 & NHCX Hospital OS): https://arogya.omniide.com/
+- Scan AI (Startup Innovation School): https://scanai.omniide.com/
+- Engineering Blog: https://omniide.com/blog/
+- Technical Documentation: https://omniide.com/docs/

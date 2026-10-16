@@ -3,6 +3,7 @@ Allow: /
 Disallow: /cdn-cgi/
 Disallow: /.git/
 
+# AI Search & LLM Retrieval Bots (Indexed for AI Overviews & Citations)
 User-agent: GPTBot
 Allow: /
 
@@ -21,7 +22,33 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
 User-agent: Bingbot
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Canonical Sitemap and Host Definition
 Sitemap: https://omniide.com/sitemap.xml
+Host: https://omniide.com

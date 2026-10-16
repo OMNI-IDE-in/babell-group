@@ -3,9 +3,24 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://omniide.com/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://omniide.com/assets/images/cero-logo.png</image:loc>
+      <image:title>Omni Cero — India's First DROC Software Logo</image:title>
+      <image:caption>Omni Cero is India's first DROC software and first multi-brand digital radiography acquisition platform by Omniide Medical Systems</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://omniide.com/assets/images/medical-imaging.jpg</image:loc>
+      <image:title>Omni Cero DROC — India's First Multi-Brand DROC Software Workstation</image:title>
+      <image:caption>Omni Cero DROC connects 11 global flat panel detector brands with 30 FPS Live Cero fluoroscopy and XVR 3D navigation</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://omniide.com/assets/images/intelligence-sculpture.jpg</image:loc>
+      <image:title>Omniide Engineering &amp; Medical Technology Research</image:title>
+      <image:caption>Omniide research and engineering for autonomous software development and advanced medical systems</image:caption>
+    </image:image>
     <image:image>
       <image:loc>https://omniide.com/assets/images/nihan-nihu-founder-omni-ide.png</image:loc>
       <image:title>Mohammed Nihan (Nihan Nihu) — Founder and CEO of Omni IDE</image:title>

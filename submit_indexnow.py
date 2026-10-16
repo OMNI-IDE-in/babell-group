@@ -1,4 +1,4 @@
-﻿import json
+import json
 import urllib.request
 import urllib.error
 
@@ -33,6 +33,12 @@ URL_LIST = [
     f"https://{HOST}/assets/images/wokspace-images/team.jpeg",
     f"https://{HOST}/assets/images/wokspace-images/working.jpeg",
     f"https://{HOST}/assets/images/wokspace-images/core-team.jpeg",
+    f"https://{HOST}/assets/images/cero-logo.png",
+    f"https://{HOST}/assets/images/medical-imaging.jpg",
+    f"https://{HOST}/sitemap.xml",
+    f"https://{HOST}/robots.txt",
+    f"https://{HOST}/llms.txt",
+    f"https://{HOST}/llm.txt",
     f"https://{HOST}/assets/images/wokspace-images/collage_ofimage.jpeg"
 ]
 
