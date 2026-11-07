@@ -4,31 +4,31 @@
    ═══════════════════════════════════════════ */
 
 /* ── Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 /* ── Variables ── */
 :root {
-    --p: #1A56DB;
-    --s: #3B82F6;
-    --a: #06B6D4;
-    --n: #0F172A;
-    --g: #6B7280;
-    --w: #FFFFFF;
-    --bg: #FFFFFF;
-    --bg-alt: #F8FAFC;
-    --bg-dark: #0F172A;
-    --border: #E5E7EB;
-    --border-light: #F1F5F9;
-    --text: #0F172A;
-    --text-muted: #64748B;
-    --text-light: #94A3B8;
+    --p: #c9a96e;
+    --s: #d8b376;
+    --a: #d6d9dc;
+    --n: #edece6;
+    --g: #a3a097;
+    --w: #161614;
+    --bg: #161614;
+    --bg-alt: #20201d;
+    --bg-dark: #121210;
+    --border: rgba(237, 236, 230, 0.12);
+    --border-light: rgba(237, 236, 230, 0.08);
+    --text: #edece6;
+    --text-muted: #a3a097;
+    --text-light: #77756f;
     --success: #22C55E;
     --warning: #F59E0B;
     --danger: #EF4444;
-    --radius-sm: 6px;
-    --radius: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 24px;
+    --radius-sm: 0px;
+    --radius: 0px;
+    --radius-lg: 0px;
+    --radius-xl: 0px;
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
     --shadow: 0 4px 12px rgba(0,0,0,0.06);
     --shadow-lg: 0 12px 40px rgba(0,0,0,0.08);
@@ -45,7 +45,7 @@
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; width: 100%; }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Jost', -apple-system, BlinkMacSystemFont, sans-serif;
     color: var(--text);
     background: var(--bg);
     -webkit-font-smoothing: antialiased;
@@ -55,7 +55,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     color: var(--text);
     line-height: 1.2;
     overflow-wrap: break-word;
@@ -107,7 +107,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 22px;
     font-weight: 800;
     letter-spacing: -0.03em;
@@ -252,7 +252,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .mobile-nav-logo span {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 20px;
     font-weight: 800;
     color: #ffffff;
@@ -265,7 +265,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .mobile-nav-version {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 11px;
     font-weight: 600;
     color: #10b981;
@@ -333,7 +333,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .mobile-nav-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 17px;
     font-weight: 750;
     color: #ffffff;
@@ -341,7 +341,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .mobile-nav-subtitle {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 12px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.45);
@@ -373,7 +373,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     border-radius: 14px;
     background: linear-gradient(135deg, var(--p), #8b5cf6);
     color: #ffffff !important;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 600;
     font-size: 14px;
     text-decoration: none;
@@ -394,7 +394,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     display: flex;
     align-items: center;
     gap: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.3);
 }
@@ -491,7 +491,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .sidebar-section { margin-bottom: 24px; }
 
 .sidebar-section-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
@@ -741,7 +741,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .page-nav-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 16px;
     font-weight: 700;
     color: var(--p);
@@ -781,7 +781,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .related-card-title {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 15px;
     font-weight: 700;
     color: var(--text);
@@ -1061,7 +1061,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     background: none;
     border: none;
     cursor: pointer;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 16px;
     font-weight: 700;
     color: var(--text);
@@ -1216,7 +1216,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .footer-col h5 {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Cormorant Garamond', Georgia, serif;
     font-size: 14px;
     font-weight: 700;
     color: #fff;
@@ -1385,7 +1385,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
         margin-bottom: 20px;
     }
     .sidebar-mobile-title {
-        font-family: 'Syne', sans-serif;
+        font-family: 'Cormorant Garamond', Georgia, serif;
         font-size: 18px;
         font-weight: 800;
         color: var(--n);
@@ -1421,8 +1421,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
         border: none;
         outline: none;
         padding: 11px 16px;
-        border-radius: 50px;
-        font-family: 'Inter', sans-serif;
+        border-radius: 0px;
+        border: 1px solid var(--border);
+        font-family: 'Jost', sans-serif;
         font-weight: 600;
         font-size: 13px;
         letter-spacing: 0.02em;

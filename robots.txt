@@ -50,5 +50,5 @@ User-agent: DuckDuckBot
 Allow: /
 
 # Canonical Sitemap and Host Definition
-Sitemap: https://omniide.com/sitemap.xml
-Host: https://omniide.com
+Sitemap: https://babellgroup.com/sitemap.xml
+Host: https://babellgroup.com

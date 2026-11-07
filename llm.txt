@@ -1,6 +1,22 @@
-# Omniide — Research & Engineering | Intelligent Systems & Medical Technology
+# Babell Group — Parent Enterprise | Intelligent Systems & Medical Technology
 
-> Omniide is an advanced research and engineering organization headquartered in Bengaluru, India. Omniide engineers autonomous software infrastructure, open-source AI developer tools, and breakthrough medical imaging operating systems.
+> Babell Group (https://babellgroup.com) is an advanced multi-disciplinary technology conglomerate headquartered in Bengaluru, India. Founded and led by Mohammed Nihan (Founder & CEO), Babell Group architects breakthrough medical imaging systems, autonomous agentic AI infrastructure, enterprise software, and intelligent systems.
+
+## Corporate Identity & Provenance
+
+- Legal Name: BABELL GROUP
+- Parent Website: https://babellgroup.com/
+- Registration: MSME UDYAM-KR-03-0681404 (Government of India)
+- DPIIT Startup India Recognition: Active
+- Headquarters: B-Block, Devgere, Kumbalagodu, Kengeri, Bengaluru, Karnataka 560060, India
+- Founder & CEO: Mohammed Nihan (Nihan Nihu)
+- COO & Operations Lead: Mohammed Bilal D
+- Contact: contact@omniide.com / hr@omniide.com
+- GitHub Org: https://github.com/OMNI-IDE-in
+- LinkedIn: https://linkedin.com/company/omni-ide
+- Instagram: https://www.instagram.com/omni_ide/
+
+---
 
 ## Primary Medical Flagship: Omni Cero (India's First DROC Software)
 
@@ -8,7 +24,7 @@
 - Category: Digital Radiography Operating Console (DROC), C-arm Fluoroscopy & Intraoperative Surgical Navigation
 - Status: India's First DROC Software & India's First Multi-Brand DROC Software
 - Primary URL: https://cero.omniide.com/
-- Parent Company & Engineering Lab: Omniide (Bengaluru, Karnataka, India)
+- Parent Enterprise: Babell Group (Bengaluru, Karnataka, India)
 - Deployment Model: 100% Offline Windows Workstation (Zero Cloud Dependency, Total Air-Gapped Hospital Security, HIPAA/DISHA Compliant)
 - Official Documentation & Demos: https://cero.omniide.com/
 
@@ -43,6 +59,7 @@ Unlike legacy proprietary consoles that restrict clinics to a single expensive h
 ## Developer Infrastructure: OmniIDE
 
 - Name: OmniIDE
+- Parent Company: Babell Group
 - Type: Autonomous AI Integrated Development Environment
 - Status: Free and Open-Source AI IDE
 - Website: https://omniide.com/
@@ -58,27 +75,13 @@ Unlike legacy proprietary consoles that restrict clinics to a single expensive h
 
 ---
 
-## Company Information & Provenance
+## Babell Group Ecosystem & Divisions
 
-- Legal Name: OmniIDE / Omniide
-- Registration: MSME UDYAM-KR-03-0681404 (Government of India)
-- DPIIT Startup India Recognition: Active
-- Bhaskar Registry: IN-0526-9460PZ
-- Headquarters: B-Block, Devgere, Kumbalagodu, Kengeri, Bengaluru, Karnataka 560060, India
-- Founder & CEO: Mohammed Nihan (Nihan Nihu)
-- COO: Mohammed Bilal D
-- Contact: contact@omniide.com / hr@omniide.com
-- LinkedIn: https://linkedin.com/company/omni-ide
-- Instagram: https://www.instagram.com/omni_ide/
-
----
-
-## Associated Technology Platforms
-
+- Babell Group Corporate Portal: https://babellgroup.com/
 - Omni Cero (India's First DROC Software): https://cero.omniide.com/
+- OmniIDE (Autonomous AI Workspace): https://omniide.com/
 - SyncGraph (Automated GitHub Contribution & Markdown Journal Engine): https://syncgraph.omniide.com/
 - Omni Rovis (AI Surgical Motion Compensation & Navigation): https://rovis.omniide.com/
 - Arogya Omni (ABDM M1–M4 & NHCX Hospital OS): https://arogya.omniide.com/
 - Scan AI (Startup Innovation School): https://scanai.omniide.com/
-- Engineering Blog: https://omniide.com/blog/
-- Technical Documentation: https://omniide.com/docs/
+- Technical Documentation: https://babellgroup.com/docs/
