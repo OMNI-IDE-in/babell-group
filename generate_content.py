@@ -127,8 +127,8 @@ def footer_html():
             <div class="footer-col">
                 <h5>Connect</h5>
                 <a href="https://github.com/OMNI-IDE-in" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a href="https://linkedin.com/company/omni-ide" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a href="https://www.instagram.com/omni_ide/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.linkedin.com/company/babell-group/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.instagram.com/babellgroup/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a href="mailto:contact@omniide.com">Email</a>
             </div>
         </div>
@@ -178,7 +178,7 @@ def head_html(title, description, canonical, page_type="WebPage", extra_schema="
                 "name": "OmniIDE",
                 "url": "{DOMAIN}",
                 "logo": {{ "@type": "ImageObject", "url": "{DOMAIN}/assets/images/logo.jpg" }},
-                "sameAs": ["https://github.com/OMNI-IDE-in", "https://linkedin.com/company/omni-ide", "https://www.instagram.com/omni_ide/"]
+                "sameAs": ["https://github.com/OMNI-IDE-in", "https://www.linkedin.com/company/babell-group/", "https://www.instagram.com/babellgroup/"]
             }},
             {{
                 "@type": "BreadcrumbList",
@@ -2936,8 +2936,8 @@ llms_txt = f'''# OmniIDE
 - Documentation: https://omniide.com/docs/
 - Blog: https://omniide.com/blog/
 - GitHub: https://github.com/OMNI-IDE-in
-- LinkedIn: https://linkedin.com/company/omni-ide
-- Instagram: https://www.instagram.com/omni_ide/
+- LinkedIn: https://www.linkedin.com/company/babell-group/
+- Instagram: https://www.instagram.com/babellgroup/
 - Version: 3.0.0
 - License: Open Source
 - Price: Free
