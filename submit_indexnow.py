@@ -17,27 +17,22 @@ URL_LIST = [
     f"https://{HOST}/open-source-ai-coding-ide/",
     f"https://{HOST}/open-source-ai-ide/",
     f"https://{HOST}/windsurf-alternative/",
+    f"https://{HOST}/favicon.ico",
+    f"https://{HOST}/site.webmanifest",
     f"https://{HOST}/assets/images/b-mark.png",
+    f"https://{HOST}/assets/images/babell-favicon.png",
+    f"https://{HOST}/assets/images/favicon-48x48.png",
+    f"https://{HOST}/assets/images/favicon-96x96.png",
+    f"https://{HOST}/assets/images/favicon-144x144.png",
+    f"https://{HOST}/assets/images/favicon-180x180.png",
+    f"https://{HOST}/assets/images/favicon-192x192.png",
+    f"https://{HOST}/assets/images/favicon-512x512.png",
     f"https://{HOST}/assets/images/og-babell-group.png",
     f"https://{HOST}/assets/images/msme-qr.png",
     f"https://{HOST}/assets/images/nihan-nihu-founder-omni-ide.png",
     f"https://{HOST}/assets/images/mohammed-nihan-founder-ceo-omniide.jpeg",
     f"https://{HOST}/assets/images/nihan-nihu-founder-ceo-omni.jpg",
     f"https://{HOST}/assets/images/mohammed-nihan-nihu-founder-omniide.jpg",
-    f"https://{HOST}/assets/images/logo.jpg",
-    f"https://{HOST}/assets/images/arogya-omni-logo.png",
-    f"https://{HOST}/assets/images/syncgraph-logo.jpg",
-    f"https://{HOST}/assets/images/omni_rovis_icon.png",
-    f"https://{HOST}/assets/images/scanai-logo.png",
-    f"https://{HOST}/assets/images/mohammed-bilal.jpg",
-    f"https://{HOST}/assets/images/wokspace-images/founder_ceo.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/founder-ceo.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/founder.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/ceo_coo.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/team-omni.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/team.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/working.jpeg",
-    f"https://{HOST}/assets/images/wokspace-images/core-team.jpeg",
     f"https://{HOST}/sitemap.xml",
     f"https://{HOST}/robots.txt",
     f"https://{HOST}/llms.txt",
@@ -60,7 +55,7 @@ endpoints = [
 data = json.dumps(payload).encode("utf-8")
 headers = {
     "Content-Type": "application/json; charset=utf-8",
-    "User-Agent": "BabellGroup-IndexNow-Broadcaster/2.0"
+    "User-Agent": "BabellGroup-IndexNow-Broadcaster/3.0"
 }
 
 print(f"[*] Submitting {len(URL_LIST)} clean canonical URLs & assets to IndexNow Network for host '{HOST}'...")
