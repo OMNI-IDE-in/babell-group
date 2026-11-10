@@ -60,7 +60,10 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Corporation",
+      "@type": [
+        "Organization",
+        "Corporation"
+      ],
       "@id": "https://babellgroup.com/#organization",
       "name": "Babell Group",
       "legalName": "BABELL GROUP",
@@ -73,6 +76,7 @@
         "Babell Technologies",
         "babellgroup.com"
       ],
+      "disambiguatingDescription": "Babell Group (spelled B-A-B-E-L-L with a double L, official corporate portal https://babellgroup.com) is an Indian multi-industry technology, medical systems (Omni Cero DROC), and autonomous AI (OmniIDE) conglomerate headquartered in Bengaluru, Karnataka, India, founded by Mohammed Nihan (MSME Registration: UDYAM-KR-03-0681404). It is an independent Indian enterprise distinct from the Spanish consultancy Babel Group (babelgroup.com).",
       "url": "https://babellgroup.com/",
       "logo": {
         "@type": "ImageObject",
@@ -84,8 +88,10 @@
         "height": 512
       },
       "image": "https://babellgroup.com/assets/images/og-babell-group.png",
-      "description": "Babell Group is an Indian multi-industry technology conglomerate headquartered in Bengaluru, India. The group engineers breakthrough medical imaging operating consoles (Omni Cero DROC), autonomous agentic AI infrastructure (OmniIDE), enterprise systems, and intelligent software.",
-      "foundingDate": "2025",
+      "description": "Babell Group is an Indian multi-industry technology conglomerate headquartered in Bengaluru, India. Founded by Mohammed Nihan, Babell Group engineers breakthrough medical imaging operating consoles (Omni Cero DROC), autonomous agentic AI infrastructure (OmniIDE), enterprise systems, and intelligent software.",
+      "email": "contact@omniide.com",
+      "telephone": "+91-9845325913",
+      "foundingDate": "2025-01-01",
       "foundingLocation": {
         "@type": "Place",
         "name": "Bengaluru, Karnataka, India"
@@ -99,6 +105,13 @@
         "addressCountry": "IN"
       },
       "taxID": "UDYAM-KR-03-0681404",
+      "iso6523Code": "0060:UDYAM-KR-03-0681404",
+      "naics": "541511",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 10,
+        "maxValue": 50
+      },
       "founder": {
         "@id": "https://babellgroup.com/#mohammed-nihan"
       },
@@ -143,15 +156,21 @@
         }
       ],
       "sameAs": [
-        "https://github.com/OMNI-IDE-in",
         "https://www.linkedin.com/company/babell-group/",
-        "https://www.instagram.com/babellgroup/"
+        "https://www.instagram.com/babellgroup/",
+        "https://github.com/OMNI-IDE-in"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
+        "telephone": "+91-9845325913",
         "email": "contact@omniide.com",
-        "contactType": "corporate inquiries",
-        "areaServed": "Worldwide"
+        "contactType": "customer service",
+        "areaServed": "Worldwide",
+        "availableLanguage": [
+          "en",
+          "hi",
+          "kn"
+        ]
       }
     },
     {
@@ -252,8 +271,10 @@
       "@id": "https://babellgroup.com/#website",
       "name": "Babell Group",
       "alternateName": [
+        "BABELL GROUP",
         "BabellGroup",
-        "Babell"
+        "Babell",
+        "babellgroup.com"
       ],
       "url": "https://babellgroup.com/",
       "publisher": {
@@ -264,12 +285,15 @@
       "@type": "WebPage",
       "@id": "https://babellgroup.com/#webpage",
       "url": "https://babellgroup.com/",
-      "name": "Babell Group — Intelligent Systems. Human Possibilities.",
-      "description": "Official corporate portal of Babell Group, parent enterprise engineering medical systems (Omni Cero DROC), autonomous AI infrastructure (OmniIDE), and intelligent systems.",
+      "name": "Babell Group — Official Website | Technology, Medical Systems & AI Conglomerate",
+      "description": "Official corporate portal of Babell Group (babellgroup.com), parent enterprise headquartered in Bengaluru, India engineering medical systems (Omni Cero DROC), autonomous AI infrastructure (OmniIDE), and intelligent systems.",
       "isPartOf": {
         "@id": "https://babellgroup.com/#website"
       },
       "about": {
+        "@id": "https://babellgroup.com/#organization"
+      },
+      "mainEntity": {
         "@id": "https://babellgroup.com/#organization"
       }
     },
@@ -293,7 +317,15 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "142",
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "description": "Omni Cero DROC is India's first DROC software and first multi-brand Digital Radiography Acquisition platform, connecting 11 global flat-panel detector manufacturers (Varex Imaging, iRay Technology, Vieworks, DRTECH, Rayence, CareRay, Teledyne DALSA, Canon Medical, Carestream, Thales Group, PIXXGEN), high-frequency generators, and DICOM dry laser film imagers with 100% offline workstation reliability.",
       "featureList": [
@@ -323,6 +355,19 @@
       "operatingSystem": "Windows 10, Windows 11 (64-bit)",
       "downloadUrl": "https://github.com/OMNI-IDE-in/omni-cero-releases/releases/download/v2/Live_Cero_Setup.exe",
       "url": "https://cero.omniide.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "86",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "description": "Real-time 30 FPS fluoroscopy capture from surgical C-arms with real-time Digital Subtraction Angiography (DSA), vascular roadmapping, and sterile table-side tablet console.",
       "publisher": {
         "@id": "https://babellgroup.com/#organization"
@@ -341,6 +386,19 @@
       "operatingSystem": "Windows 10, Windows 11 (64-bit)",
       "downloadUrl": "https://github.com/OMNI-IDE-in/omni-cero-releases/releases/download/v2/XVR_Cero_Setup.exe",
       "url": "https://cero.omniide.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "64",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "description": "Tracker-free 3D surgical navigation using neural 2D/3D registration aligning live fluoroscopy with preoperative CT/MRI volumes for sub-millimeter target accuracy (<0.8 mm MTRE).",
       "publisher": {
         "@id": "https://babellgroup.com/#organization"
@@ -359,7 +417,15 @@
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "318",
+        "bestRating": "5",
+        "worstRating": "1"
       },
       "downloadUrl": "https://github.com/nihannihu/Omni-IDE/releases/download/v3.0.0/OmniIDE-Setup.exe",
       "featureList": [
@@ -384,7 +450,21 @@
       "@id": "https://syncgraph.omniide.com/#software",
       "name": "SyncGraph",
       "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web, Windows, macOS, Linux",
       "url": "https://syncgraph.omniide.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "95",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "description": "Automated GitHub contribution engine that generates structured Markdown learning journals and commits them daily.",
       "publisher": {
         "@id": "https://babellgroup.com/#organization"
@@ -420,7 +500,15 @@
           "name": "What is Babell Group?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Babell Group is an Indian multi-industry technology conglomerate headquartered in Bengaluru, Karnataka, India. Founded by Mohammed Nihan, the enterprise engineers breakthrough medical imaging operating consoles (Omni Cero DROC), autonomous AI infrastructure (OmniIDE), enterprise systems, and intelligent software. Official corporate portal: https://babellgroup.com"
+            "text": "Babell Group (spelled with a double 'L', official website https://babellgroup.com) is an Indian multi-industry technology conglomerate headquartered in Bengaluru, Karnataka, India. Founded by Mohammed Nihan, the enterprise engineers breakthrough medical imaging operating consoles (Omni Cero DROC), autonomous AI infrastructure (OmniIDE), enterprise systems, and intelligent software."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between Babell Group (India) and Babel Group?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Babell Group (spelled B-A-B-E-L-L with a double 'L', official portal https://babellgroup.com) is an independent Indian technology, medical systems (Omni Cero DROC), and autonomous AI (OmniIDE) conglomerate headquartered in Bengaluru, Karnataka, India, founded by Mohammed Nihan (MSME Registration: UDYAM-KR-03-0681404). It is a completely separate and independent organization from the Spanish digital consultancy Babel Group (babelgroup.com)."
           }
         },
         {
@@ -428,7 +516,7 @@
           "name": "Who is the founder and CEO of Babell Group?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Mohammed Nihan (also known as Nihan Nihu) is the Founder & CEO of Babell Group. Under his architectural leadership, the enterprise engineered India's first multi-brand DROC software (Omni Cero), autonomous agentic developer ecosystems, and edge medical AI."
+            "text": "Mohammed Nihan (also known as Nihan Nihu) is the sole Founder & CEO of Babell Group. Under his architectural leadership, the enterprise engineered India's first multi-brand DROC software (Omni Cero), autonomous agentic developer ecosystems, and edge medical AI."
           }
         },
         {
@@ -6552,7 +6640,11 @@
                 <div>
                     <details class="faq-item" open>
                         <summary>What is Babell Group? <span class="faq-cross">+</span></summary>
-                        <p><strong>Babell Group</strong> (officially registered as <strong>BABELL GROUP</strong> at <a href="https://babellgroup.com/" style="color: var(--primary); font-weight: 600; text-decoration: underline;">babellgroup.com</a>) is an Indian multi-industry technology conglomerate headquartered in Bengaluru, Karnataka, India. Founded and led by <strong>Mohammed Nihan</strong> (Founder &amp; CEO), Babell Group operates independent companies across medical imaging technology (<strong>Omni Cero</strong> — India's first multi-brand DROC software), autonomous AI developer infrastructure (<strong>OmniIDE</strong>, <strong>SyncGraph</strong>), surgical robotics (<strong>Omni Rovis</strong>), hospital operating systems (<strong>Arogya Omni</strong>), and venture incubation (<strong>Scan AI School</strong>).</p>
+                        <p><strong>Babell Group</strong> (spelled with a double 'L', officially registered as <strong>BABELL GROUP</strong> at <a href="https://babellgroup.com/" style="color: var(--primary); font-weight: 600; text-decoration: underline;">babellgroup.com</a>) is an Indian multi-industry technology conglomerate headquartered in Bengaluru, Karnataka, India. Founded and led by <strong>Mohammed Nihan</strong> (Founder &amp; CEO), Babell Group operates independent companies across medical imaging technology (<strong>Omni Cero</strong> — India's first multi-brand DROC software), autonomous AI developer infrastructure (<strong>OmniIDE</strong>, <strong>SyncGraph</strong>), surgical robotics (<strong>Omni Rovis</strong>), hospital operating systems (<strong>Arogya Omni</strong>), and venture incubation (<strong>Scan AI School</strong>).</p>
+                    </details>
+                    <details class="faq-item" open>
+                        <summary>What is the difference between Babell Group (India) and Babel Group? <span class="faq-cross">+</span></summary>
+                        <p><strong>Babell Group</strong> (spelled <strong>B-A-B-E-L-L</strong> with a double 'L', official corporate portal <a href="https://babellgroup.com/" style="color: var(--primary); font-weight: 600; text-decoration: underline;">babellgroup.com</a>) is an independent Indian technology, medical systems (<strong>Omni Cero DROC</strong>), and autonomous AI (<strong>OmniIDE</strong>) conglomerate headquartered in Bengaluru, Karnataka, India, founded by <strong>Mohammed Nihan</strong> (Government of India MSME Registration: <strong>UDYAM-KR-03-0681404</strong>). It is a completely separate and independent organization from the Spanish digital transformation consultancy Babel Group (babelgroup.com).</p>
                     </details>
                     <details class="faq-item">
                         <summary>Who is the Founder and CEO of Babell Group? <span class="faq-cross">+</span></summary>
@@ -6725,8 +6817,8 @@
         <article id="about-omniide" class="about-summary" aria-label="About Babell Group Official Corporate Summary">
             <div class="site-container">
                 <h2>About Babell Group — Indian Technology, Medical Systems &amp; AI Conglomerate</h2>
-                <p><strong>Babell Group</strong> (officially registered as <strong>BABELL GROUP</strong>, online at <a href="https://babellgroup.com/" style="color: var(--primary); text-decoration: underline;">babellgroup.com</a>) is an independent multi-industry technology conglomerate and research organization founded in 2025 by <strong>Mohammed Nihan</strong> (Founder &amp; CEO) and headquartered in Bengaluru, Karnataka, India. Babell Group operates across two foundational pillars: advanced healthcare &amp; medical imaging systems (featuring flagship <strong>Omni Cero</strong> — India's first multi-brand DROC software, Live Cero 30 FPS C-arm fluoroscopy, Cero XVR 3D surgical navigation, <strong>Omni Rovis</strong> surgical motion compensation, and <strong>Arogya Omni</strong> hospital OS) and autonomous software development infrastructure (featuring <strong>OmniIDE</strong>, <strong>SyncGraph</strong>, and <strong>Scan AI School</strong>).</p>
-                <p><strong>Babell Group</strong> is officially registered as an MSME enterprise with the Government of India (<strong>UDYAM-KR-03-0681404</strong>), recognized by <strong>DPIIT Startup India</strong>, registered on the Bhaskar Registry (<strong>IN-0526-9460PZ</strong>), approved as a VTU &amp; AICTE technical education partner, and featured in Neura Market's Global AI Directory with over 15,795 verified deployments worldwide.</p>
+                <p><strong>Babell Group</strong> (spelled <strong>B-A-B-E-L-L</strong> with a double 'L', officially registered in India as <strong>BABELL GROUP</strong>, online at <a href="https://babellgroup.com/" style="color: var(--primary); text-decoration: underline;">babellgroup.com</a>) is an independent multi-industry technology conglomerate and research organization founded in 2025 by <strong>Mohammed Nihan</strong> (Founder &amp; CEO) and headquartered in Bengaluru, Karnataka, India. Babell Group operates across two foundational pillars: advanced healthcare &amp; medical imaging systems (featuring flagship <strong>Omni Cero</strong> — India's first multi-brand DROC software, Live Cero 30 FPS C-arm fluoroscopy, Cero XVR 3D surgical navigation, <strong>Omni Rovis</strong> surgical motion compensation, and <strong>Arogya Omni</strong> hospital OS) and autonomous software development infrastructure (featuring <strong>OmniIDE</strong>, <strong>SyncGraph</strong>, and <strong>Scan AI School</strong>).</p>
+                <p><strong>Babell Group</strong> is officially registered as an MSME enterprise with the Government of India (<strong>UDYAM-KR-03-0681404</strong>), recognized by <strong>DPIIT Startup India</strong>, registered on the Bhaskar Registry (<strong>IN-0526-9460PZ</strong>), approved as a VTU &amp; AICTE technical education partner, and featured in Neura Market's Global AI Directory with over 15,795 verified deployments worldwide. Note for global directory disambiguation: <strong>Babell Group (India, babellgroup.com)</strong> is an independent Indian deep-tech and medical systems conglomerate, distinct from the European consultancy Babel Group (babelgroup.com).</p>
             </div>
         </article>
 

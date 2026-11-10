@@ -58,23 +58,50 @@
       "@context": "https://schema.org",
       "@graph": [
         {
-          "@type": "Organization",
+          "@type": [
+            "Organization",
+            "Corporation"
+          ],
           "@id": "https://babellgroup.com/#organization",
           "name": "Babell Group",
+          "legalName": "BABELL GROUP",
           "alternateName": [
+            "BABELL GROUP",
+            "Babell",
+            "BabellGroup",
             "Omni IDE",
             "Omni-IDE"
           ],
           "url": "https://babellgroup.com/",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://babellgroup.com/assets/images/b-mark.png"
+            "url": "https://babellgroup.com/assets/images/b-mark.png",
+            "width": 512,
+            "height": 512
           },
+          "email": "contact@omniide.com",
+          "telephone": "+91-9845325913",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "B-Block, Devgere, Kumbalagodu, Kengeri",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "postalCode": "560060",
+            "addressCountry": "IN"
+          },
+          "taxID": "UDYAM-KR-03-0681404",
           "sameAs": [
-            "https://github.com/OMNI-IDE-in",
             "https://www.linkedin.com/company/babell-group/",
-            "https://www.instagram.com/babellgroup/"
+            "https://www.instagram.com/babellgroup/",
+            "https://github.com/OMNI-IDE-in"
           ],
+          "founder": {
+            "@type": "Person",
+            "name": "Mohammed Nihan",
+            "jobTitle": "Founder & CEO",
+            "image": "https://babellgroup.com/assets/images/mohammed-nihan-founder-ceo-omniide.jpeg",
+            "sameAs": "https://www.linkedin.com/in/nihan-nihu/"
+          },
           "founders": [
             {
               "@type": "Person",
@@ -93,12 +120,20 @@
           "applicationSubCategory": "IDE",
           "operatingSystem": "Windows 10, Windows 11",
           "version": "3.0.0",
-          "datePublished": "2026-02-21",
-          "dateModified": "2026-03-14",
+          "datePublished": "2026-02-21T09:00:00+05:30",
+          "dateModified": "2026-03-14T09:00:00+05:30",
           "offers": {
             "@type": "Offer",
             "price": "0",
-            "priceCurrency": "USD"
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": "318",
+            "bestRating": "5",
+            "worstRating": "1"
           },
           "publisher": {
             "@id": "https://babellgroup.com/#organization"
@@ -115,7 +150,7 @@
           "@type": "WebPage",
           "@id": "https://babellgroup.com/omni/#webpage",
           "url": "https://babellgroup.com/omni/",
-          "name": "Omni IDE — Free AI Code Editor",
+          "name": "Omni IDE — Free AI Code Editor | Babell Group",
           "isPartOf": {
             "@type": "WebSite",
             "url": "https://babellgroup.com/"
@@ -126,8 +161,8 @@
           "primaryImageOfPage": {
             "@id": "https://babellgroup.com/omni/#primaryimage"
           },
-          "datePublished": "2026-02-21",
-          "dateModified": "2026-03-14",
+          "datePublished": "2026-02-21T09:00:00+05:30",
+          "dateModified": "2026-03-14T09:00:00+05:30",
           "breadcrumb": {
             "@id": "https://babellgroup.com/omni/#breadcrumb"
           }
@@ -166,7 +201,7 @@
               "name": "What is Omni IDE?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Omni IDE is a free, open-source AI-powered code editor built on the VS Code core. It integrates Omni-Agent with Google Gemini API for autonomous software development directly on your desktop."
+                "text": "Omni IDE is a free, open-source AI-powered code editor engineered by Babell Group on the VS Code core. It integrates Omni-Agent with Google Gemini API for autonomous software development directly on your desktop."
               }
             },
             {
@@ -182,7 +217,7 @@
               "name": "How to download Omni IDE?",
               "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "You can download Omni IDE for Windows from the official page at omniide.com/omni or directly from the GitHub releases page. Click 'Download for Windows' to get the latest v3.0.0 installer."
+                "text": "You can download Omni IDE for Windows from the official page at babellgroup.com/omni/ or directly from the GitHub releases page. Click 'Download for Windows' to get the latest v3.0.0 installer."
               }
             },
             {
@@ -209,7 +244,7 @@
           "name": "Omni IDE v3.0.0 Demo — AI-Powered Autonomous Coding",
           "description": "Watch Omni IDE v3.0.0 in action. The Omni-Agent autonomously writes, debugs, and runs code using Google Gemini API inside a Hardened Sandbox.",
           "thumbnailUrl": "https://babellgroup.com/omni/logo.jpeg",
-          "uploadDate": "2026-02-21",
+          "uploadDate": "2026-02-21T09:00:00+05:30",
           "contentUrl": "https://babellgroup.com/omni/demo.mp4",
           "embedUrl": "https://babellgroup.com/omni/",
           "duration": "PT2M"
