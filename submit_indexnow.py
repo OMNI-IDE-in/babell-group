@@ -4,7 +4,7 @@ import urllib.request
 
 # IndexNow Broadcast Configuration for Babell Group
 HOST = "babellgroup.com"
-KEY = "c0379c6560934e6293901b0451cf5713"
+KEY = "f7ad0c5492da47ea88c220edc951d408"
 KEY_LOCATION = f"https://{HOST}/{KEY}.txt"
 
 URL_LIST = [
